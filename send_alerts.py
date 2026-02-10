@@ -10,9 +10,9 @@ def dispatch_email(filename):
     body = "This is an email with attachment sent from Python"
 
     # add your own email and passkey
-    sender_email = "queenimplements@gmail.com"
-    receiver_email = "paranjaymehta31@gmail.com"
-    password = "bqcsftfrmttqkadh" 
+    sender_email = "" # enter email which will send the alert
+    receiver_email = "" # enter email which will receive the alert
+    password = "" # enter password of sender_email
 
     message = MIMEMultipart()
     message["From"] = sender_email
